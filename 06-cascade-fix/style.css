@@ -4,39 +4,38 @@ body{
   
   .para,
   .small-para {
-    color: hsl(0, 0%, 0%);
+    color: red;
     font-weight: 800;
   }
   
-  .small-para {
+  .para.small-para {
     font-size: 14px;
-    font-weight: 800;
   }
   
   .para {
     font-size: 22px;
   }
   
-  .confirm {
+  #confirm-button {
     background: green;
     color: white;
     font-weight: bold;
   } 
   
   .button {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(228, 185, 214);
     color: rgb(0, 0, 0);
     font-size: 20px;
   }
   
-  .child {
-    color: rgb(0, 0, 0);
+  .text.child {
+    color: red;
     font-weight: 800;
     font-size: 14px;
   }
   
-  div.text {
-    color: rgb(0, 0, 0);
-    font-size: 22px;
+  div.text{
+    color: green;
+    font-size: 30px;
     font-weight: 100;
   }
